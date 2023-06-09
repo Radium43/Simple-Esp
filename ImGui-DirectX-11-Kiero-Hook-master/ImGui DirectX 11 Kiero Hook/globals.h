@@ -3,5 +3,6 @@
 namespace globals
 {
 	int tab;
-	bool Esp;
+	bool Esp = false;
+	bool show = true;
 }
