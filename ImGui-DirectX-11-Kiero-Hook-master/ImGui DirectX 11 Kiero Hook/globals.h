@@ -3,4 +3,5 @@
 namespace globals
 {
 	int tab;
+	bool Esp;
 }

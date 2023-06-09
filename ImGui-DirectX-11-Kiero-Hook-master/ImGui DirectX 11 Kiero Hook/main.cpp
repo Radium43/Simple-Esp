@@ -156,8 +156,14 @@ HRESULT __stdcall hkPresent(IDXGISwapChain* pSwapChain, UINT SyncInterval, UINT 
 		{
 			globals::tab = 1;
 		}
-	
-	
+	}
+	ImGui::Separator();
+	if (globals::tab == 0)
+	{
+		if (ImGui::Checkbox(("Esp"), &globals::Esp))
+		{
+
+		}
 	}
 	ImGui::End();
 
